@@ -1,2 +1,2 @@
-# sitepessoalgithub
-Trabalho site pessoal integrado com github da disciplina de Desenvolvimento de Interfaces Web. 
+# portifoliodiw
+Meu primeiro trabalho prático de Desenvolvimento de Interfaces Web da faculdade. 

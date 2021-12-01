@@ -1,0 +1,193 @@
+.container-fluid {
+    background-color: #FFC0CB;
+}
+
+
+
+.container{
+   width: 60vw;
+   margin-top: 35px;
+}
+
+.perfil {
+    display:flex;
+
+}
+
+.perfil .img_container {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+
+}
+
+.perfil .perfil_informacao {
+    padding: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: grid;
+
+}
+
+.perfil .perfil_informacao p {
+    margin-bottom: 2px;
+}
+
+.container select {
+    float: right;
+
+}
+
+.menu {
+    display:flex;
+    justify-content:end;
+}
+
+
+
+.container.github {
+    background-color: #FFC0CB;
+    padding: 25px 50px;
+    width: 100%;
+    margin-top: 20px
+}
+
+.container.github a {
+    color: #000;
+}
+
+.container.github .icone {
+    border-radius: 50%;
+    background-color: lightcoral;
+    width: 45px;
+    height: 45px;
+    padding: 9px 13px;
+}
+
+.rodape {
+    width: 100%;
+    float: left;
+    background-color: #FFC0CB;
+    padding: 20px;
+}
+.rodape p {
+    color:#DB7093;
+    text-align: center;
+}
+.rodape .menu {
+    float: right
+}
+
+ #resultado a {
+    width: 100%;
+    padding: 20px;
+    color: grey;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 0;
+    font-weight: bold;
+
+}
+
+#resultado li {
+    min-width: 150px;
+    font-size: 15px;
+}
+
+#resultado h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.seguidores {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 0;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: bold;
+}
+.seguidor {
+    min-width: 150px;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .container{
+        width: 100;
+    }
+    .perfil .img_container {
+        display: flex;
+    align-items: center;
+    margin-right: 0;
+
+    }
+	
+}
+
+@media screen and (min-width: 900px) {
+
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .perfil .img_container {
+        display: flex;
+    align-items: center;
+    margin-right: 0;
+
+    }
+    .seguidores {
+        flex-direction: column;
+       }
+   
+       .menu {
+           justify-content: space-between;
+           flex-direction: column;
+       }
+   
+       .perfil {
+           flex-direction: column; 
+       }
+
+       .container {
+           width: inherit;
+       }
+   
+   }
+
+
+@media screen and (max-width: 320px) {
+    .perfil .img_container {
+        display: flex;
+    align-items: center;
+    margin-right: 0;
+
+    }
+
+    .seguidores {
+     flex-direction: column;
+    }
+
+    .menu {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .perfil {
+        flex-direction: column; 
+    }
+    .container {
+        width: inherit;
+    }
+
+}
